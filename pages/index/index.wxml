@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<!-- 框架最大的特点，就是让我们开发者必须按照特定的方式编写代码 -->
+<!--
+  1.数据在哪 (当前页面对象的data 属性中）
+  2.绑定到哪里去（想绑定到哪就在哪里用mustche语法输出）
+ -->
+<view class="container">
+<!-- 这种{{}}的语法叫做小胡子语法 -->
+<text>{{message}}</text>
+<text>{{person.name}}</text>
+<view class="{{ viewClassName }}"></view>
+</view>
